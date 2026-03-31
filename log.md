@@ -1,5 +1,20 @@
 # Daily Learns
 
+## Tuesday, March 31 2026 — The New Leadership Structures that Unblock Innovation
+
+**Source:** Podcast — https://hbr.org/podcast/2026/03/the-new-leadership-structures-that-unblock-innovation
+**Est. time:** ~20 min
+
+### Why this matters for Angel
+Linda Hill's research — drawn from a survey of ~9,000 executives and case studies from Pixar and Mastercard — challenges the idea that great leadership is about being the smartest decision-maker in the room. For Angel, who must simultaneously direct creative vision and build the organizational conditions for a team to keep innovating, her framework of leaders as **Architects, Bridgers, and Catalysts** offers a concrete model for exactly that. The finding that C-suites consistently lack people who can bridge the technical and business sides is directly relevant as Angel positions himself and his team at the intersection of AI and brand at Yelp.
+
+### Key takeaways
+- **Your job is to architect conditions, not just make calls.** The most innovative teams aren't directed top-down — they're built by leaders who design the culture, systems, and structure that make good ideas surface and survive. Angel can apply this to how he builds creative rituals, feedback loops, and room for experimentation on his team.
+- **Bridgers are the scarcest leadership asset.** Organizations are bottlenecked by the shortage of people who can translate between tech and business. A Director of Brand who can speak fluently to engineers building AI systems — and to CMOs evaluating ROI — is filling one of the most valuable gaps in any tech company right now.
+- **Comfort with ambiguity is the defining C-suite trait.** Hill's 9,000-executive survey surfaced this as the top differentiator for effective senior leadership. For Angel operating at the frontier of AI-powered brand (where the playbook doesn't exist yet), this is less a soft skill and more a survival capability.
+
+---
+
 ## Monday, March 30 2026 — Preparing Your Brand for Agentic AI
 
 **Source:** Article — https://hbr.org/2026/03/preparing-your-brand-for-agentic-ai
