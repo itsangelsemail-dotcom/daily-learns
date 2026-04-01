@@ -1,5 +1,20 @@
 # Daily Learns
 
+## Wednesday, April 1 2026 — Making Things That Make Things
+
+**Source:** Article — https://www.fastcompany.com/91482939/making-things-that-make-things
+**Est. time:** ~15 min
+
+### Why this matters for Angel
+This Fast Company piece — written from inside one of the world's top creative agencies — argues that the Director of Brand's job has fundamentally changed: the deliverable is no longer the campaign, it's the *engine* that generates campaigns. For Angel building AI-powered brand systems at Yelp, this reframe is directly operational — his creative team should be architecting the logic that produces brand expression, not just the expression itself. The article also articulates something Angel likely feels but hasn't seen named: the shift from **brand consistency** (looking the same) to **brand coherence** (feeling the same), which is exactly the challenge of maintaining a living brand identity across AI-generated surfaces.
+
+### Key takeaways
+- **The Big Idea is now the system.** For decades the "Big Idea" meant a script or campaign. In an era of infinite AI-generated content, the Big Idea is the *system* — the logic that lets one creative spark generate countless intelligent touchpoints. Angel should be asking: what is Yelp's brand system logic, not just Yelp's brand guidelines?
+- **Creatives become system architects.** R/GA calls these "Intelligent Brand Systems" — the unification of brand, experience, and story into AI-powered engines. The CCO role evolves from quality control to ecosystem architect. Angel can use this framework to reposition his team's value inside Yelp, especially as AI tools proliferate and stakeholders start questioning what a brand team does.
+- **Taste and judgment become the scarce input.** AI can generate infinite content; it can't decide what matters, what moves culture, or what's worth making. The creative leaders who win the next decade aren't the most prolific producers — they're the ones who encode the best taste into systems that scale it.
+
+---
+
 ## Tuesday, March 31 2026 — The New Leadership Structures that Unblock Innovation
 
 **Source:** Podcast — https://hbr.org/podcast/2026/03/the-new-leadership-structures-that-unblock-innovation
