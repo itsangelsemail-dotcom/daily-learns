@@ -1,0 +1,78 @@
+import json
+
+subject = "Your Daily AI Lesson: AI Agents - June 4, 2026"
+
+html = (
+    '<!DOCTYPE html>'
+    '<html><head>'
+    '<meta charset="UTF-8">'
+    '<meta name="viewport" content="width=device-width, initial-scale=1.0">'
+    '</head>'
+    '<body style="font-family: Georgia, serif; max-width: 640px; margin: 0 auto; padding: 24px; background: #f9f9f9; color: #1a1a1a;">'
+    '<div style="background: #fff; border-radius: 8px; padding: 32px; box-shadow: 0 1px 4px rgba(0,0,0,0.08);">'
+
+    '<p style="font-size: 12px; text-transform: uppercase; letter-spacing: 1px; color: #888; margin: 0 0 8px 0;">Your Daily AI Lesson &middot; June 4, 2026</p>'
+    '<h1 style="font-size: 28px; margin: 0 0 16px 0; color: #111;">AI Agents: From Demos to Production</h1>'
+
+    '<p style="font-size: 16px; line-height: 1.7; color: #333;">'
+    'AI agents&mdash;systems that perceive, plan, and act autonomously to complete multi-step tasks&mdash;have crossed a major threshold in 2026: most enterprises are no longer just experimenting, they\'re deploying them in production. '
+    'The shift from single chatbots to collaborative multi-agent systems is creating real competitive leverage, but it demands the same engineering rigor as any production software. '
+    'Understanding how to build, govern, and evaluate agents is now a core professional skill.'
+    '</p>'
+
+    '<hr style="border: none; border-top: 1px solid #eee; margin: 28px 0;">'
+
+    '<h2 style="font-size: 18px; margin: 0 0 8px 0;">'
+    '<a href="https://www.databricks.com/resources/ebook/state-of-ai-agents" style="color: #1a73e8; text-decoration: none;">&#128202; 2026 State of AI Agents Report &mdash; Databricks</a>'
+    '</h2>'
+    '<ul style="font-size: 15px; line-height: 1.8; color: #333; padding-left: 20px;">'
+    '<li>86% of organizations have moved beyond experimentation and are deploying AI agents for production code&mdash;enterprises leading at 91%.</li>'
+    '<li>Multi-agent system usage grew <strong>327% in under four months</strong>; 57% of orgs now run agents across multi-stage workflows.</li>'
+    '<li>Companies with formal AI governance pushed <strong>12x more projects to production</strong> than those without&mdash;governance is an accelerant, not a brake.</li>'
+    '<li>Top non-engineering use cases: data analysis and report generation (60%), internal process automation (48%).</li>'
+    '<li>The biggest blocker to scale isn\'t the model&mdash;it\'s reliability, observability, and trust in production environments.</li>'
+    '</ul>'
+
+    '<h2 style="font-size: 18px; margin: 24px 0 8px 0;">'
+    '<a href="https://openai.com/business/guides-and-resources/a-practical-guide-to-building-ai-agents/" style="color: #1a73e8; text-decoration: none;">&#128295; A Practical Guide to Building Agents &mdash; OpenAI</a>'
+    '</h2>'
+    '<ul style="font-size: 15px; line-height: 1.8; color: #333; padding-left: 20px;">'
+    '<li>Agents aren\'t for every workflow&mdash;they shine where rule-based automation falls flat: ambiguous, multi-step, judgment-heavy tasks.</li>'
+    '<li>Multi-agent architecture isn\'t complexity theater&mdash;splitting tasks across specialized agents measurably improves both performance and scalability.</li>'
+    '<li>Don\'t delay building evals waiting for a perfect dataset. Start with 20&ndash;50 real-failure examples; that\'s enough to surface critical gaps.</li>'
+    '<li>When agents consistently pick wrong tools or ignore instructions, that\'s a system design problem&mdash;not a model problem.</li>'
+    '<li>Think of an LLM agent like a seasoned investigator: it evaluates context and spots patterns that rigid rules miss entirely.</li>'
+    '</ul>'
+
+    '<h2 style="font-size: 18px; margin: 24px 0 8px 0;">'
+    '<a href="https://medium.com/@vision_16700/ai-agent-orchestration-in-2026-what-actually-works-33c3399d3f60" style="color: #1a73e8; text-decoration: none;">&#9881;&#65039; AI Agent Orchestration: What Actually Works in 2026 &mdash; Medium</a>'
+    '</h2>'
+    '<ul style="font-size: 15px; line-height: 1.8; color: #333; padding-left: 20px;">'
+    '<li>Start with one agent doing one job well&mdash;adding more agents before the first is stable just multiplies your failure surface.</li>'
+    '<li>Instrument everything from day one: if you can\'t see what an agent is doing, you can\'t debug it or trust it in production.</li>'
+    '<li>Define human-in-the-loop boundaries explicitly <em>before</em> deployment, not after something goes wrong.</li>'
+    '<li>Use message queues over direct agent-to-agent calls&mdash;you get retry logic, failure isolation, and observability nearly for free.</li>'
+    '<li>Treat agents like production software: write tests, track costs, handle concurrency. "Prompt and pray" does not scale.</li>'
+    '</ul>'
+
+    '<hr style="border: none; border-top: 1px solid #eee; margin: 28px 0;">'
+
+    '<p style="font-size: 16px; line-height: 1.7; color: #111; font-weight: bold; border-left: 4px solid #1a73e8; padding-left: 16px; margin: 0 0 28px 0;">'
+    'The companies winning with AI agents right now aren\'t the ones with the fanciest models&mdash;they\'re the ones who applied engineering discipline to agentic systems before everyone else did.'
+    '</p>'
+
+    '<hr style="border: none; border-top: 1px solid #eee; margin: 0 0 20px 0;">'
+
+    '<p style="font-size: 12px; color: #999; text-align: center; margin: 0;">'
+    'Curated by your AI learning agent &middot; Weekdays 8AM ET'
+    '</p>'
+
+    '</div>'
+    '</body></html>'
+)
+
+payload = {"subject": subject, "html_body": html}
+with open("payload.json", "w", encoding="utf-8") as f:
+    json.dump(payload, f, ensure_ascii=False)
+
+print("payload.json written successfully")
